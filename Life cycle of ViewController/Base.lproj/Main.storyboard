@@ -263,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54" y="852"/>
+            <point key="canvasLocation" x="80" y="1089"/>
         </scene>
         <!--Custom Tab Bar Controller-->
         <scene sceneID="ETX-vl-Pc3">
@@ -499,7 +499,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="📈History (contains 324 lines):" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2s-DR-YU7">
                                                 <rect key="frame" x="0.0" y="0.0" width="266" height="18"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-UltraLight" family="Apple SD Gothic Neo" pointSize="15"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rtp-Um-wxr">
@@ -539,7 +539,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyv-hc-Ddv" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="773" y="851"/>
+            <point key="canvasLocation" x="772" y="1089"/>
         </scene>
         <!--Third-->
         <scene sceneID="fVj-ni-AWl">
@@ -794,7 +794,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cq-8x-eX9" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1466" y="850"/>
+            <point key="canvasLocation" x="1466" y="1088"/>
         </scene>
     </scenes>
     <resources>
