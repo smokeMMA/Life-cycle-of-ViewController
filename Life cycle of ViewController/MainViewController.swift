@@ -68,7 +68,7 @@ class MainViewController: UIViewController {
         tabBar.history.append("💡 \(title ?? "nil"): \(function) worked")
         historyLabel.text = tabBar.history.joined(separator: "\n")
         
-        historyCountLabel.text = "📈History (contains \(tabBar.history.count) lines):"
+        historyCountLabel.text = "📈 History (contains \(tabBar.history.count) lines):"
         
         //Turn On Indicators
         switch function {
