@@ -14,8 +14,9 @@ class MainViewController: UIViewController {
     @IBOutlet weak var historyLabel: UITextView!
     @IBOutlet weak var historyCountLabel: UILabel!
     
+    //works when change screen orientation
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator) // обязательно вызвать родителя
+        super.viewWillTransition(to: size, with: coordinator)
         
         //check for the selected ViewController to Avoid Crash
         guard self == tabBarController?.selectedViewController else { return }
@@ -32,7 +33,7 @@ class MainViewController: UIViewController {
         collectHistory(function: #function)
     }
     
-    // между viewWillAppear и viewDidAppear находятся viewDidDisappear и viewWillDisappear
+    // worked between viewWillAppear/viewDidAppear and  viewDidDisappear/viewWillDisappear
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -49,7 +50,7 @@ class MainViewController: UIViewController {
         collectHistory(function: #function)
     }
     
-    // оба вызываются между viewWillAppear(_:)  и viewDidAppear(_:) срабатывают при повороте экрана либо вызова splitView
+    // both worked between viewWillAppear(_:)  и viewDidAppear(_:) when change screen orientation or calls splitView
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
