@@ -8,7 +8,5 @@
 import UIKit
 
 class CustomTabBarController: UITabBarController {
-    
     var history = [String]()
-
 }
