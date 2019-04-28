@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B3905EBC2274F1A7003526DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3905EBB2274F1A7003526DF /* AppDelegate.swift */; };
-		B3905EBE2274F1A7003526DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3905EBD2274F1A7003526DF /* ViewController.swift */; };
+		B3905EBE2274F1A7003526DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3905EBD2274F1A7003526DF /* MainViewController.swift */; };
 		B3905EC12274F1A7003526DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3905EBF2274F1A7003526DF /* Main.storyboard */; };
 		B3905EC32274F1A8003526DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3905EC22274F1A8003526DF /* Assets.xcassets */; };
 		B3905EC62274F1A8003526DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3905EC42274F1A8003526DF /* LaunchScreen.storyboard */; };
+		B3DBF81A22750E8A00662A79 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DBF81922750E8A00662A79 /* SecondViewController.swift */; };
+		B3DBF81C22750E9C00662A79 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DBF81B22750E9C00662A79 /* ThirdViewController.swift */; };
+		B3DBF81F2275193A00662A79 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DBF81E2275193A00662A79 /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3905EB82274F1A7003526DF /* Life cycle of ViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life cycle of ViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3905EBB2274F1A7003526DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3905EBD2274F1A7003526DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3905EBD2274F1A7003526DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 		B3905EC02274F1A7003526DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3905EC22274F1A8003526DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3905EC52274F1A8003526DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3905EC72274F1A8003526DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DBF81922750E8A00662A79 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		B3DBF81B22750E9C00662A79 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
+		B3DBF81E2275193A00662A79 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				B3905EBB2274F1A7003526DF /* AppDelegate.swift */,
-				B3905EBD2274F1A7003526DF /* ViewController.swift */,
+				B3DBF81D2275162500662A79 /* View Controllers */,
 				B3905EBF2274F1A7003526DF /* Main.storyboard */,
 				B3905EC22274F1A8003526DF /* Assets.xcassets */,
+				B3DBF81E2275193A00662A79 /* CustomTabBarController.swift */,
 				B3905EC42274F1A8003526DF /* LaunchScreen.storyboard */,
 				B3905EC72274F1A8003526DF /* Info.plist */,
 			);
 			path = "Life cycle of ViewController";
+			sourceTree = "<group>";
+		};
+		B3DBF81D2275162500662A79 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3905EBD2274F1A7003526DF /* MainViewController.swift */,
+				B3DBF81922750E8A00662A79 /* SecondViewController.swift */,
+				B3DBF81B22750E9C00662A79 /* ThirdViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3905EBE2274F1A7003526DF /* ViewController.swift in Sources */,
+				B3DBF81A22750E8A00662A79 /* SecondViewController.swift in Sources */,
+				B3905EBE2274F1A7003526DF /* MainViewController.swift in Sources */,
+				B3DBF81F2275193A00662A79 /* CustomTabBarController.swift in Sources */,
+				B3DBF81C22750E9C00662A79 /* ThirdViewController.swift in Sources */,
 				B3905EBC2274F1A7003526DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
