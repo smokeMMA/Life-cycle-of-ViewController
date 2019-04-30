@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		B3905EB82274F1A7003526DF /* Life cycle of ViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life cycle of ViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3905EBB2274F1A7003526DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3905EBD2274F1A7003526DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		B3905EBD2274F1A7003526DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B3905EC02274F1A7003526DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3905EC22274F1A8003526DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3905EC52274F1A8003526DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,21 +58,13 @@
 			children = (
 				B3905EBB2274F1A7003526DF /* AppDelegate.swift */,
 				B3DBF81E2275193A00662A79 /* CustomTabBarController.swift */,
-				B3DBF81D2275162500662A79 /* View Controllers */,
+				B3905EBD2274F1A7003526DF /* MainViewController.swift */,
 				B3905EBF2274F1A7003526DF /* Main.storyboard */,
 				B3905EC22274F1A8003526DF /* Assets.xcassets */,
 				B3905EC42274F1A8003526DF /* LaunchScreen.storyboard */,
 				B3905EC72274F1A8003526DF /* Info.plist */,
 			);
 			path = "Life cycle of ViewController";
-			sourceTree = "<group>";
-		};
-		B3DBF81D2275162500662A79 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				B3905EBD2274F1A7003526DF /* MainViewController.swift */,
-			);
-			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
