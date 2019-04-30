@@ -11,7 +11,7 @@ import UIKit
 class MainViewController: UIViewController {
     
     @IBOutlet var mainVCIndicators: [UIView]!
-    @IBOutlet weak var historyLabel: UITextView!
+    @IBOutlet weak var logTextView: UITextView!
     @IBOutlet weak var historyCountLabel: UILabel!
     
     //works when change screen orientation
@@ -60,13 +60,14 @@ class MainViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         collectHistory(function: #function)
+        logTextView.scrollRangeToVisible(NSMakeRange(0, -1))
     }
     
     private func collectHistory(function: String = #function) {
         
         let tabBar = tabBarController as! CustomTabBarController
         tabBar.history.append("💡 \(title ?? "nil"): \(function) worked")
-        historyLabel.text = tabBar.history.joined(separator: "\n")
+        logTextView.text = tabBar.history.joined(separator: "\n")
         
         historyCountLabel.text = "📈 History (contains \(tabBar.history.count) lines):"
         

@@ -250,7 +250,7 @@
                     <tabBarItem key="tabBarItem" title="Main" image="main" id="4Hx-n9-Q3L"/>
                     <connections>
                         <outlet property="historyCountLabel" destination="Fng-GY-9aV" id="V1B-8S-RDt"/>
-                        <outlet property="historyLabel" destination="C2W-lR-Kix" id="2Rn-9p-8pI"/>
+                        <outlet property="logTextView" destination="C2W-lR-Kix" id="2Rn-9p-8pI"/>
                         <outletCollection property="mainVCIndicators" destination="JfZ-aQ-CoF" collectionClass="NSMutableArray" id="5fg-S5-biJ"/>
                         <outletCollection property="mainVCIndicators" destination="UHm-0c-Sk1" collectionClass="NSMutableArray" id="CTg-t0-nbk"/>
                         <outletCollection property="mainVCIndicators" destination="urO-TW-bCe" collectionClass="NSMutableArray" id="PIh-IT-H8i"/>
@@ -288,7 +288,7 @@
         <!--Second-->
         <scene sceneID="wpi-QN-Mse">
             <objects>
-                <viewController title="Second" id="wtu-Vr-WLw" customClass="SecondViewController" customModule="Life_cycle_of_ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Second" id="wtu-Vr-WLw" customClass="MainViewController" customModule="Life_cycle_of_ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V7A-p6-YoE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -526,7 +526,7 @@
                     <tabBarItem key="tabBarItem" title="Second" image="2" id="BmI-Xw-pPc"/>
                     <connections>
                         <outlet property="historyCountLabel" destination="A2s-DR-YU7" id="Z09-bn-UzA"/>
-                        <outlet property="historyLabel" destination="Rtp-Um-wxr" id="0ly-yU-vqK"/>
+                        <outlet property="logTextView" destination="Rtp-Um-wxr" id="0ly-yU-vqK"/>
                         <outletCollection property="mainVCIndicators" destination="ktR-iP-O5A" collectionClass="NSMutableArray" id="M9O-ht-q10"/>
                         <outletCollection property="mainVCIndicators" destination="T1X-rB-ynx" collectionClass="NSMutableArray" id="8Ha-i7-5kl"/>
                         <outletCollection property="mainVCIndicators" destination="cvg-3E-U8E" collectionClass="NSMutableArray" id="OJa-BQ-oUa"/>
@@ -544,7 +544,7 @@
         <!--Third-->
         <scene sceneID="fVj-ni-AWl">
             <objects>
-                <viewController title="Third" id="re6-D1-dlv" customClass="ThirdViewController" customModule="Life_cycle_of_ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Third" id="re6-D1-dlv" customClass="MainViewController" customModule="Life_cycle_of_ViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rqZ-Df-ei6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -781,7 +781,7 @@
                     <tabBarItem key="tabBarItem" title="Third" image="3" id="c75-4m-LHs"/>
                     <connections>
                         <outlet property="historyCountLabel" destination="gZy-Qg-NxY" id="2jR-We-1qM"/>
-                        <outlet property="historyLabel" destination="cUi-X0-88p" id="6Bi-0N-AN1"/>
+                        <outlet property="logTextView" destination="cUi-X0-88p" id="6Bi-0N-AN1"/>
                         <outletCollection property="mainVCIndicators" destination="817-cz-mN5" collectionClass="NSMutableArray" id="fe5-Tx-kS2"/>
                         <outletCollection property="mainVCIndicators" destination="XCa-lk-xNW" collectionClass="NSMutableArray" id="IRs-qu-9BU"/>
                         <outletCollection property="mainVCIndicators" destination="1Kd-9w-vby" collectionClass="NSMutableArray" id="bsr-pk-2lN"/>
